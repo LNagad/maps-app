@@ -1,0 +1,80 @@
+.loading-map {
+    height: 100dvh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100dvw;
+}
+
+.custom-loading-size {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.btn-my-location-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-my-location {
+    color: rgb(139, 139, 139);
+    cursor: pointer;
+}
+
+.btn-my-location:hover {
+    color: rgb(102, 102, 102)
+}
+
+.react-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 130px;
+}
+
+
+.search-container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    left: 20px;
+    padding: 5px;
+    position: fixed;
+    top: 20px;
+    width: 250px;
+    z-index: 999;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.distance-container {
+    background-color: white;
+    border-radius: 10px;
+    bottom: 80px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    font-size: 26px;
+    left: 20px;
+    padding: 10px;
+    position: fixed;
+    width: 350px;
+    z-index: 999;
+}
+
+.distance-container p {
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.distance-container p>span {
+    color: #0D6EFD;
+    font-weight: 500;
+}
